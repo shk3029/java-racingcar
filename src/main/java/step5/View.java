@@ -1,13 +1,11 @@
-package step4;
+package step5;
 
-import step4.checkor.ScoreCheckor;
+import step5.checkor.ScoreCheckor;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-import java.util.stream.Collectors;
 
-import static step4.ViewManager.*;
+import static step5.ViewManager.*;
 
 
 public class View {

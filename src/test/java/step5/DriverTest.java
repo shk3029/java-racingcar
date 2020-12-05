@@ -1,15 +1,17 @@
-package step4;
+package step5;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+import step5.Car;
+import step5.Driver;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 class DriverTest {
 
-    Driver driver;
+    step5.Driver driver;
 
     @BeforeEach
     void setUp() {

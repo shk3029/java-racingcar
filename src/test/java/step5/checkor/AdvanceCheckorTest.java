@@ -1,9 +1,11 @@
-package step4.checkor;
+package step5.checkor;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+import step5.checkor.AdvanceCheckor;
+import step5.checkor.Checkor;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

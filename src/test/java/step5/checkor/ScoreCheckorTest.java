@@ -1,12 +1,14 @@
-package step4.checkor;
+package step5.checkor;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import step4.Car;
-import step4.Driver;
+import step5.Car;
+import step5.Driver;
+import step5.checkor.Checkor;
+import step5.checkor.ScoreCheckor;
 
 import java.util.ArrayList;
 import java.util.List;

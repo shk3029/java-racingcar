@@ -1,6 +1,4 @@
-package step4;
-
-import step4.checkor.ScoreCheckor;
+package step5;
 
 import java.util.List;
 import java.util.Scanner;
