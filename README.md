@@ -63,5 +63,17 @@
     + 최종 우승자를 말해준다
 + View : 실행되는 뷰 
 
+## Step5 - 자동차 경주(리팩토링)
+### 리팩토링 요구사항
++ 패키지 분리
+    + domain : 핵심 비지니스 로직을 가지는 객체
+    + view : UI 관련한 객체 
++ MVC 패턴 기반으로 리팩토링 
+    + view 패키지의 객체는 domain 패키지 객체에 의존할 수 있다
+    + 반대로 domain 패키지의 객체는 view 패키지 객체에 의존하지 않는다
++ domain Unit Test 작성
++ 테스트 가능한 부분과 테스트하기 힘든 부분을 분리해 테스트 가능한 부분에 대해서만 단위 테스트를 진행한다
+    + ex) Random 값 생성 처리 
+   
 ## 온라인 코드 리뷰 과정
 * [텍스트와 이미지로 살펴보는 온라인 코드 리뷰 과정](https://github.com/next-step/nextstep-docs/tree/master/codereview)
