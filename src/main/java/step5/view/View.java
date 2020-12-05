@@ -1,11 +1,13 @@
-package step5;
+package step5.view;
 
-import step5.checkor.ScoreCheckor;
+import step5.domain.Car;
+import step5.domain.Driver;
+import step5.domain.checkor.ScoreCheckor;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static step5.ViewManager.*;
+import static step5.view.ViewManager.*;
 
 
 public class View {

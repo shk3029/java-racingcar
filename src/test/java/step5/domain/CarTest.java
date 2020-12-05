@@ -1,4 +1,4 @@
-package step5;
+package step5.domain;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -6,17 +6,17 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import step5.Car;
+import step5.domain.Car;
 
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 public class CarTest {
 
-    step5.Car car;
+    Car car;
 
     @BeforeEach
     void setUp() {
-        car = new step5.Car("jack");
+        car = new Car("jack");
     }
 
     @Test

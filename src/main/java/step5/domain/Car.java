@@ -1,7 +1,7 @@
-package step5;
+package step5.domain;
 
-import step5.checkor.AdvanceCheckor;
-import step5.checkor.Checkor;
+import step5.domain.checkor.AdvanceCheckor;
+import step5.domain.checkor.Checkor;
 
 public class Car {
 

@@ -1,4 +1,4 @@
-package step5.checkor;
+package step5.domain.checkor;
 
 public class AdvanceCheckor implements Checkor<Boolean, Integer> {
 

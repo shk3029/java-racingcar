@@ -1,7 +1,7 @@
-package step5.checkor;
+package step5.domain.checkor;
 
 
-import step5.Driver;
+import step5.domain.Driver;
 
 import java.util.List;
 
